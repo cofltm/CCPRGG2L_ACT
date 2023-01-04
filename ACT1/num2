@@ -29,7 +29,8 @@ public class Num2 {
                     reader.close();
                 }
             } 
-       catch (IOException e) {
+            
+            catch (IOException e) {
                 System.out.println("Error closing file: " + e.getMessage());
             }
         }
