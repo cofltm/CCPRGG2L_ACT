@@ -1,1 +1,4 @@
-wala pa
+//5. Write a java program that reads a text file (dummy.txt) and create a new file with the same contents but will all
+//the words in reverse order. The program should prompt the user for the input and output file names. Hint: Use an array.
+
+hindi ko na po keri
