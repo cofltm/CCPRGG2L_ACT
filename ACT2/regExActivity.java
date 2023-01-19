@@ -23,10 +23,10 @@ public class regExActivity {
         while((text = br.readLine()) != null){
             System.out.println("Username: " + text);
             if(text.matches(pattern)){
-                System.out.println("Valid.");
+                System.out.println("Valid");
             }
             else{
-                System.out.println("Not valid.");
+                System.out.println("Invalid");
             }
         } 
     }
@@ -51,10 +51,10 @@ public class regExActivity {
         while((text = br.readLine()) != null){
             System.out.println("Email: " + text);
             if(text.matches(pattern)){
-                System.out.println("Valid.");
+                System.out.println("Valid");
             }
             else{
-                System.out.println("Invalid.");
+                System.out.println("Invalid");
             }
         } 
     }
@@ -70,10 +70,10 @@ public class regExActivity {
         while((text = br.readLine()) != null){
             System.out.println("Text: " + text);
             if(text.matches(pattern)){
-                System.out.println("Panda found.");
+                System.out.println("Panda found");
             }
             else{
-                System.out.println("panda not found.");
+                System.out.println("Panda not found");
             }
         } 
     }
